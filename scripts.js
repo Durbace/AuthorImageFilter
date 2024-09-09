@@ -22,7 +22,7 @@ async function displayImages(images) {
         <div class="image-card">
           <img src="${image.download_url}" alt="Image by ${image.author}">
           <h3>${image.author}</h3>
-          <p>Body text for whatever you'd like to say.</p>
+          <p>Some static body text...</p>
         </div>
       `;
       gallery.innerHTML += imageElement;
