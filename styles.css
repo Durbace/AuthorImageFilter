@@ -35,14 +35,35 @@ body {
   height: auto;
 }
 
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 @media (max-width: 800px) {
   .image-card {
-    width: calc(50% - 20px);
+      width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 500px) {
   .image-card {
-    width: 100%;
+      width: 100%;
   }
 }
